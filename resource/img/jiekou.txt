@@ -1,0 +1,9 @@
+//通过openid获取此penid下所有小乔接口：  {"do":"getxq", "openid":"oNpl_wStT2TH7TiN-3I6xKn4Vpug"}
+//检测是否声波联网成功   {"do":"checknetstatus",  "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU"}
+//获取当前用户绑定小乔  {"do":"getxq", "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU"}
+//获取当前小乔所有设备  {"do":"getdev", "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU","deviceid":"30373331323031313164313830303737"}
+//用户登录   {"do":"userlogin", "data":{"code":"微信code","utoken":'utoken', "encryptedData":'encryptedData值', "iv":"iv值"}}
+//文本命令发送  {"do":"reply", "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU",  "deviceid":"30373331323031313164313830303737", "data":{"Content":"发送内容"}}
+//wifi联接  {"do":"wifi", "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU", "data":{"wifi":"wifi用户名::div::wifi密码", "ref":"0"}} ref 0为公众号提交过来 1为小程序提交过来
+//获取闹钟  {"do":"getalarm", "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU",  "deviceid":"30373331323031313164313830303737", "data":{"cateid":"2"}}
+ 删除闹钟接口：   {"do":"deletealarm", "openid":"oNpl_wVYukIxDCvXQsTgKYnTiasU",  "deviceid":"30373331323031313164313830303737", "data":{"id":"2"}} //不传data 即删除全部

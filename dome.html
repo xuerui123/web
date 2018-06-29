@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div id="content">
+        <div v-for="item in list">
+            <p>{{item.a}}</p>
+            <div v-for="item in item.child">
+                <p style="margin-left: 10px;">{{item.b}}</p>
+                <span style="margin-left: 20px;" v-for="item in item.child">{{item.c}}</span>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/vue/2.5.10/vue.js"></script>
+<script>
+
+    var vue = new Vue({
+        el: '#content',
+        data: {
+            list : [
+                {a:1,child:[{b:2,child:[{c:3},{c:3}]}]},
+                {a:1,child:[{b:2,child:[{c:3},{c:3}]}]},
+                {a:1,child:[{b:2,child:[{c:3},{c:3}]}]}
+            ]
+        },
+        methods:{},
+        ready: function () {
+
+        }
+    });
+
+
+
+
+
+</script>
+</html>
