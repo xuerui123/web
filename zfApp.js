@@ -18,11 +18,6 @@ app.use(async (ctx, next) => {
         if (!params) {
             params = {};
         }
-        if (ctx.user) {
-            params.user = ctx.user;
-            params.user.gradeText = conf.member[params.user.grade];
-        }
-        params.resource = conf.system.resource;
         ctx.body = jade.renderFile(`${__dirname}/view/${path}.jade`, params);
     };
     await next();
@@ -40,22 +35,9 @@ router.post('/api/*', async (ctx) => {
 });
 
 
-router.get('/login', ctx => ctx.render('login'));
-router.get('/', ctx => ctx.render('login'));
-router.get('/index', ctx => ctx.render('index'));
-router.get('/user/list', ctx => ctx.render('user/list'));
-router.get('/list/index', ctx => ctx.render('list/index'));
-router.get('/list/sort', ctx => ctx.render('list/sort'));
-router.get('/list/details', ctx => ctx.render('list/details'));
-router.get('/list/see', ctx => ctx.render('list/see'));
-router.get('/list/photo', ctx => ctx.render('list/photo'));
-router.get('/setting/index', ctx => ctx.render('setting/index'));
-router.get('/setting/set', ctx => ctx.render('setting/set'));
-router.get('/account/withdrawal', ctx => ctx.render('account/withdrawal'));
-router.get('/account/money', ctx => ctx.render('account/money'));
-router.get('/account/extract', ctx => ctx.render('account/extract'));
-router.get('/account/refund', ctx => ctx.render('account/refund'));
 
+router.get('/', ctx => ctx.render('index'));
+router.get('/index', ctx => ctx.render('index'));
 
 app.use(serve(path.join(__dirname, './resource')));
 app.use(router.routes());
