@@ -4,12 +4,11 @@
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="212px" height="100px" viewBox="0 0 212 100" enable-background="new 0 0 212 100" xml:space="preserve">
 <g>
-	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M-0.002,56.299c28.148,28.112,66.315,43.895,106.1,43.87
-		c39.78-0.024,77.788-15.721,105.904-43.87L155.533-0.169c-13.123,13.136-30.922,20.522-49.488,20.534
-		C87.478,20.377,69.606,12.95,56.471-0.169L-0.002,56.299z"/>
+	<path fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" d="M0,56.298c28.149,28.112,66.312,43.894,106.096,43.869
+		S183.888,84.446,212,56.298L155.531-0.167c-13.119,13.131-30.921,20.518-49.488,20.53c-18.559,0.012-36.438-7.415-49.569-20.53
+		L0,56.298z"/>
+	<circle fill-rule="evenodd" clip-rule="evenodd" fill="#040000" cx="106.003" cy="60.265" r="2.809"/>
 	
-		<path fill-rule="evenodd" clip-rule="evenodd" fill="#040000" stroke="#332C2B" stroke-width="0.7087" stroke-miterlimit="22.9256" d="
-		M106,63.076c1.549,0,2.813-1.261,2.813-2.81s-1.265-2.809-2.813-2.809c-1.545,0-2.81,1.26-2.81,2.809S104.455,63.076,106,63.076z"
-		/>
+		<circle fill-rule="evenodd" clip-rule="evenodd" fill="#040000" stroke="#040000" stroke-width="0.7089" stroke-miterlimit="22.926" cx="106.003" cy="60.265" r="2.809"/>
 </g>
 </svg>
