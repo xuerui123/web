@@ -1,11 +1,16 @@
 @import "base.less";
 body{
   background: #ffffff;
+  margin-top: 60px;
 }
 .nav{
   height: 60px;
   width: 100%;
-  background: #ffffff;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 1;
   .content{
     width: 100%;
     min-width: 1200px;
@@ -18,9 +23,9 @@ body{
       height: 30px;
       margin-left: 50px;
       img{
-        margin-top: 25px;
-        width: 100px;
-        height: 15px;
+        margin-top: 18px;
+        width: 158px;
+        height: 26px;
       }
     }
     .list{
@@ -35,7 +40,7 @@ body{
             padding: 10px 5px;
           }
           a:hover{
-            border-bottom: 2px solid red;
+            border-bottom: 2px solid #2fccff;
           }
         }
 
@@ -264,7 +269,8 @@ body{
   .title{
     p{
       text-align: center;
-      font-size: 24px;
+      padding: 30px;
+      font-size: 26px;
     }
   }
   .list{
@@ -277,6 +283,11 @@ body{
       line-height: 90px;
       font-size: 24px;
       text-align: center;
+      img{
+        width: 200px;
+        height: 40px;
+        margin-top: 30px;
+      }
     }
   }
 }
