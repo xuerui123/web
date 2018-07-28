@@ -2,7 +2,13 @@
 <!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="3.44px" height="6.87px" viewBox="0 0 3.44 6.87" enable-background="new 0 0 3.44 6.87" xml:space="preserve">
-<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="-0.001,3.435 1.72,1.718 3.441,0 3.441,3.435 3.441,6.869 
-	1.72,5.152 "/>
+	 width="9px" height="20px" viewBox="0 0 9 20" enable-background="new 0 0 9 20" xml:space="preserve">
+<g>
+	
+		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.1199" stroke-miterlimit="22.9256" points="
+		0,10 4.5,5 9,0 9,10 9,20 4.5,15 	"/>
+	
+		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#CBCBCC" stroke-width="0.1199" stroke-miterlimit="22.9256" points="
+		9,20 4.5,15 0,10 4.5,5 9,0 	"/>
+</g>
 </svg>
