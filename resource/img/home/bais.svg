@@ -4,11 +4,10 @@
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="9px" height="20px" viewBox="0 0 9 20" enable-background="new 0 0 9 20" xml:space="preserve">
 <g>
-	
-		<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="0.1199" stroke-miterlimit="22.9256" points="
-		0,10 4.5,5 9,0 9,10 9,20 4.5,15 	"/>
-	
-		<polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#CBCBCC" stroke-width="0.1199" stroke-miterlimit="22.9256" points="
-		9,20 4.5,15 0,10 4.5,5 9,0 	"/>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#FFFFFF" points="0.319,10 4.621,5.032 8.925,0.063 8.925,10 8.925,19.935 
+		4.621,14.966 	"/>
+	<path fill="#CCCCCC" d="M8.587,19.919c0.09,0.101,0.237,0.108,0.338,0.016c0.094-0.089,0.102-0.246,0.016-0.348L4.798,14.8L0.64,10
+		l4.158-4.801L8.94,0.413c0.086-0.101,0.078-0.259-0.016-0.35C8.824-0.027,8.677-0.02,8.587,0.082L4.444,4.867L0.142,9.833L0,10
+		l0.142,0.166l4.302,4.967L8.587,19.919z"/>
 </g>
 </svg>

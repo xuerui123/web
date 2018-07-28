@@ -3,7 +3,11 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="9px" height="20px" viewBox="0 0 9 20" enable-background="new 0 0 9 20" xml:space="preserve">
-<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A6DAED" points="9,10 4.5,5 0,0 0,10 0,20 4.5,15 "/>
-<polyline fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#CBCBCC" stroke-width="0.1199" stroke-linecap="round" stroke-miterlimit="22.9256" points="
-	0.05,19.935 4.451,15.009 8.951,10.009 4.451,5.009 0.049,0.065 "/>
+<g>
+	<polygon fill-rule="evenodd" clip-rule="evenodd" fill="#A5D6E7" points="8.684,9.96 4.415,5.013 0.144,0.063 0.144,9.96 
+		0.144,19.858 4.415,14.908 	"/>
+	<path fill="#CCCCCC" d="M0.411,19.919c-0.085,0.101-0.236,0.108-0.333,0.021c-0.097-0.093-0.104-0.25-0.019-0.351l4.181-4.846
+		L8.367,9.96L4.24,5.178L0.128,0.411C0.04,0.311,0.047,0.153,0.144,0.063C0.241-0.028,0.392-0.02,0.479,0.081l4.112,4.767
+		l4.271,4.948L9,9.96l-0.138,0.165l-4.271,4.949L0.411,19.919z"/>
+</g>
 </svg>
