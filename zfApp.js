@@ -38,6 +38,12 @@ router.post('/api/*', async (ctx) => {
 
 router.get('/', ctx => ctx.render('index'));
 router.get('/index', ctx => ctx.render('index'));
+router.get('/product', ctx => ctx.render('product'));
+router.get('/solution', ctx => ctx.render('solution'));
+router.get('/infrared', ctx => ctx.render('infrared'));
+router.get('/open', ctx => ctx.render('open'));
+router.get('/aboutUs', ctx => ctx.render('aboutUs'));
+router.get('/news', ctx => ctx.render('news'));
 
 app.use(serve(path.join(__dirname, './resource')));
 app.use(router.routes());

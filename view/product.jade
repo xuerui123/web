@@ -1,0 +1,107 @@
+html
+    head
+        meta(charset='utf-8')
+        title
+        link(rel='stylesheet',href='/css/product.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.nav
+            div.content
+                div.logo
+                    a(href='/index')
+                        img(src='/pcimg/index/logo.svg')
+                div.list
+                    ul
+                        li
+                            a(href='/product').active 产品中心
+                        li
+                            a(href='/solution') 解决方案
+                        li
+                            a(href='/news') 最新资讯
+                        li
+                            a(href='/infrared') 红外码库
+                        li
+                            a(href='/open') 开放平台
+                        li
+                            a(href='/aboutUs') 关于我们
+        div.sidebar
+            a(href='#voice')
+                span.yuan
+                    b.left
+                    b.right
+                span 全屋语音
+            a(href='#light')
+                span.yuan
+                    b.left
+                    b.right
+                span 灯光照明
+            a(href='#family')
+                span.yuan
+                    b.left
+                    b.right
+                span 家庭安全
+            a(href='#curtains')
+                span.yuan
+                    b.left
+                    b.right
+                span 窗帘窗户
+            a(href='#intelligence')
+                span.yuan
+                    b.left
+                    b.right
+                span 智能家电
+        div.main
+            div.voice#voice
+                div.title
+                    span.line
+                    span 全屋语音
+                div.box
+                    div.middle(style='margin-right:20px;')
+                        img(src='/pcimg/product/voice1.jpg')
+                    div.small
+                        img(src='/pcimg/product/voice2.jpg')
+            div.light#light
+                div.title
+                    span.line
+                    span  灯光照明
+                div.box
+                    div.big
+                        img(src='/pcimg/product/light1.jpg')
+                div.box
+                    div.middle(style='margin-right:20px;')
+                        img(src='/pcimg/product/light2.jpg')
+                    div.small
+                        img(src='/pcimg/product/light3.jpg')
+            div.family#family
+                div.title
+                    span.line
+                    span 家庭安全
+                div.box
+                    div.small(style='margin-right:20px;')
+                        img(src='/pcimg/product/family1.jpg')
+                    div.middle
+                        img(src='/pcimg/product/family2.jpg')
+                div.box
+                    div.middle(style='margin-right:20px;')
+                        img(src='/pcimg/product/family3.jpg')
+                    div.small
+                        img(src='/pcimg/product/family4.jpg')
+            div.curtains#curtains
+                div.title
+                    span.line
+                    span 窗户窗帘
+                div.box
+                    div.left(style='margin-right:20px;')
+                        img(src='/pcimg/product/curtains1.jpg')
+                    div.right
+                        img(src='/pcimg/product/curtains2.jpg')
+            div.intelligence#intelligence
+                div.title
+                    span.line
+                    span 家电智能
+                div.box
+                    div.big
+                        img(src='/pcimg/product/intelligence1.jpg')
+        include bottom
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/product.js")

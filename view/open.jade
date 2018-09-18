@@ -1,0 +1,67 @@
+html
+    head
+        meta(charset='utf-8')
+        title
+        link(rel='stylesheet',href='/css/open.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.nav
+            div.content
+                div.logo
+                    a(href='/index')
+                        img(src='/pcimg/index/logo.svg')
+                div.list
+                    ul
+                        li
+                            a(href='/product') 产品中心
+                        li
+                            a(href='/solution') 解决方案
+                        li
+                            a(href='/news') 最新资讯
+                        li
+                            a(href='/infrared') 红外码库
+                        li
+                            a(href='/open').active 开放平台
+                        li
+                            a(href='/aboutUs') 关于我们
+        div.open
+            div.top
+                p.title 从这里开始，创建一个属于你的智能应用
+                div.text
+                    p PuGoing开放平台为大客户、楼宇项目及垂直行业提供智能应用解决方案，结合PuGoing云平台与智能硬件能
+                    p 力，你可以建立一个全新的智能应用，或对现有的应用进行二次开发，让它更加符合你的需求。
+            div.list
+                ul
+                    li
+                        div.yuan
+                            p(style='margin-top:80px') 网站应用
+
+                        div.text
+                            span PuGoing提供的云服务接口能够全方位应对各种平台
+                    li
+                        div.yuan
+                            p(style='margin-top:80px') 行业应用
+                        div.text
+                            span 智能酒店、智能办公、酒吧、餐厅、咖啡店都可以按需定制功能
+                    li
+                        div.yuan
+                            p(style='margin-top:60px') 微信小程
+                            p 序接入
+                        div.text
+                            span 利用PuGoing云服务接口打造一款专属微信小程序，绑定在你的微信公众号下
+                    li(style='margin:0')
+                        div.yuan
+                            p(style='margin-top:60px') 第三方硬
+                            p 件接入
+                        div.text
+                            span PuGoing开放平台输出强有力的传统硬件智化能力助你升级现有的产品
+            div.box
+                div.yuyin
+                        span.title 语音服务
+                        span.text PuGoing与思必驰语音控制平台达成合作，可自由开发语音命令控制接口
+                div.yingjian
+                        span.title 硬件接入
+                        span.text PuGoing云服务云平台支持传统硬件智能化升级，兼容多种无线通讯协议，实现不同协议的智能硬件快速联网、互联互通。
+        include bottom
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/open.js")

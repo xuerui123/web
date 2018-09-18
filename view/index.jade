@@ -12,101 +12,104 @@ html
                 div.list
                     ul
                         li
-                            a 产品中心
+                            a(href='/product') 产品中心
                         li
-                            a 解决方案
+                            a(href='/solution') 解决方案
                         li
-                            a 智能生活
+                            a(href='/news') 最新资讯
                         li
-                            a 红外码库
+                            a(href='/infrared') 红外码库
                         li
-                            a 开放平台
+                            a(href='/open') 开放平台
                         li
-                            a 关于我们
+                            a(href='/aboutUs') 关于我们
         div.banner#carousel_1.ft-carousel
             ul.carousel-inner
                 li.banner1.carousel-item
                 li.banner2.carousel-item
+                li.banner3.carousel-item
         div.project
-            div.left
+            div.title
+                p(style='font-size:36px;margin-bottom:6px;') 智能解决方案
+                p(style='font-size:16px') 提供多元化智能解决方案
+            div.left(style='margin-right:20px;')
                 img(src='/pcimg/index/project1.jpg')
-                p.title 智慧酒店
-                p.text 创新型全智能化控制系统，让顾客体验如家的感受
+                p 智慧酒店解决方案
             div.right
                 img(src='/pcimg/index/project2.jpg')
-                p.title 智能家居
-                p.text 轻松快捷打造全屋语音智能生活
+                p 智能家居解决方案
         div.product
             div.title
-                p 产品中心
+                p(style='font-size:36px;margin-bottom:6px;') 产品中心，自由选择
+                p(style='font-size:16px') 后期会慢慢增加系列
+            div.down
+                img(src='/pcimg/index/down.png')
             div.list
-                span.btn.prev
-                span.btn.next
                 ul
                     li
-                        img(src='/pcimg/index/quanwu.jpg')
-                        span 全屋语音系统
+                        img(src='/pcimg/index/quanwu.png')
+                        span 全屋语音
                     li
-                        img(src='/pcimg/index/dengguang.jpg')
-                        span 灯光照明系统
+                        img(src='/pcimg/index/zhaoming.png')
+                        span 灯光照明
+                    li(style='margin-right: 20px;')
+                        img(src='/pcimg/index/anquan.png')
+                        span 家庭安全
                     li
-                        img(src='/pcimg/index/anfang.jpg')
-                        span 智能安防系统
+                        img(src='/pcimg/index/chuanghu.png')
+                        span 窗帘窗户
                     li
-                        img(src='/pcimg/index/menchuang.jpg')
-                        span 门窗遮阳系统
+                        img(src='/pcimg/index/jiadian.png')
+                        span 智能家电
         div.video
-            img(src='/pcimg/index/sp.jpg')
+            div.title
+                p(style='font-size:36px') 智能生活，畅想物联
+                p 帮助您更好的了解场景
+            div.videoBox
+                div#main
+                    div#index_b_hero
+                        div.hero-wrap
+                            ul.heros.clearfix
+                                li.hero
+                                    a#play_btn1(href="javascript:void(0);" target="_self")
+                                        img.thumb(src="/pcimg/index/video1.jpg")
+                                li.hero
+                                    a#play_btn2(href="javascript:void(0);" target="_self")
+                                        img.thumb(src="/pcimg/index/video2.jpg")
+                                li.hero
+                                    a#play_btn3(href="javascript:void(0);" target="_self")
+                                        img.thumb(src="/pcimg/index/video3.jpg")
+                        div.helper
+                            div.mask-left
+                            div.mask-right
+                            a.prev.icon-arrow-a-left( href="javascript:void(0);" target="_self" )
+                            a.next.icon-arrow-a-right(href="javascript:void(0);" target="_self")
         div.cooperation
             div.title
-                p 合作伙伴
+                p(style='font-size:36px;margin-bottom:6px;') 产品中心，自由选择
+                p(style='font-size:16px') 开发原则，欢迎合作
             div.list
                 div.item
                     img(src='/pcimg/index/aupu.png')
                 div.item
                     img(src='/pcimg/index/huawei.png')
                 div.item
-                    img(src='/pcimg/index/jp.png')
+                    img(src='/pcimg/index/aliyun.png')
+                div.item
+                    img(src='/pcimg/index/sibichi.png')
                 div.item
                     img(src='/pcimg/index/mendale.png')
                 div.item
                     img(src='/pcimg/index/symh.png')
+                div.item
+                    img(src='/pcimg/index/junpeng.png')
+                div.item
+                    img(src='/pcimg/index/umthink.png')
+        include bottom
 
 
-        div.bottom
-            div.list
-                ul
-                    li.title 产品中心
-                    li 家族系列
-                    li 智能家居
-                    li 体验与购买
-                ul
-                    li.title 售后与支持
-                    li 服务及保修政策
-                    li 微信小程序
-                ul
-                    li.title 服务合作
-                    li 合作对接
-                    li 开放平台
-                    li 码库服务
-                ul
-                    li.title 关于蒲公英
-                    li 公司简介
-
-                ul
-                    li.title 客联系我们
-                    li 电话 400-113-0099
-                    li 服务时间
-                    li 9:00-18:00
-                    li QQ 2582292078
-                ul
-                    li.title 关注我们
-                    li 微信
-                    li 微博
-            p Copyright ©2018 长沙蒲公英智能科技有限公司
-            p Pugoing Corporation Ltd. All Rights Reserved
-            p 湘ICP备18012601号
 
 script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/silde.js")
 script(src="/JavaScript/banner.js")
 script(src="/JavaScript/index.js")

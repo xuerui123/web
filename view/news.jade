@@ -1,0 +1,33 @@
+html
+    head
+        meta(charset='utf-8')
+        title
+        link(rel='stylesheet',href='/css/news.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.nav
+            div.content
+                div.logo
+                    a(href='/index')
+                        img(src='/pcimg/index/logo.svg')
+                div.list
+                    ul
+                        li
+                            a(href='/product') 产品中心
+                        li
+                            a(href='/solution') 解决方案
+                        li
+                            a(href='/news').active 最新资讯
+                        li
+                            a(href='/infrared') 红外码库
+                        li
+                            a(href='/open') 开放平台
+                        li
+                            a(href='/aboutUs') 关于我们
+        div.text
+            p.title 最新资讯
+
+
+    include bottom
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/news.js")

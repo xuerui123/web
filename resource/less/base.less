@@ -22,6 +22,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   outline: 0;
 }
 a{
+  text-decoration:none;
+  color:#333;
   cursor: pointer;
 }
 body {
@@ -50,3 +52,108 @@ blockquote, q {
   quotes: "" "";
 }
 body{margin: 0;font-family: "微软雅黑";background-color: #1F1F1F;}
+body{
+  background: #ffffff;
+  margin-top: 60px;
+}
+.nav{
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left: 0;
+  background-color: rgba(255,255,255,0.5);
+  z-index: 1;
+  border-bottom: 1px solid #eeeeee;
+  .content{
+    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    line-height:60px;
+    .logo{
+      float: left;
+      width: 100px;
+      height: 30px;
+      margin-left: 50px;
+      img{
+        margin-top: 18px;
+        width: 158px;
+        height: 26px;
+      }
+    }
+    .list{
+      float: right;
+      ul{
+        overflow: hidden;
+        li{
+          float: left;
+          font-size: 14px;
+          margin: 0 33px;
+          a{
+            padding: 10px 5px;
+          }
+          a:hover{
+            border-bottom: 2px solid #2fccff;
+          }
+          a.active{
+            border-bottom: 2px solid #2fccff;
+          }
+        }
+
+      }
+    }
+  }
+}
+.bottom{
+  width: 100%;
+  background: #191919;
+  color: #fff;
+  padding-bottom: 30px;
+  .list{
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+
+  }
+  ul{
+    width: 16.66%;
+    float: left;
+    margin: 50px 0;
+    li{
+      font-size: 12px;
+      margin-bottom: 23px;
+      color: #a1a1a1;
+      position: relative;
+      cursor: pointer;
+      .wechat{
+        display: none;
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        top: 30px;
+        img{
+          width: 100%;
+        }
+      }
+    }
+    .xiaochengxu:hover{
+      .wechat{
+        display: block;
+      }
+    }
+    li.title{
+      font-size: 15px;
+      margin-bottom: 33px;
+      color: #fff;
+
+    }
+  }
+  p{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #a1a1a1;
+    padding-bottom: 10px;
+  }
+}
