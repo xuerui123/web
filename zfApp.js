@@ -44,6 +44,7 @@ router.get('/infrared', ctx => ctx.render('infrared'));
 router.get('/open', ctx => ctx.render('open'));
 router.get('/aboutUs', ctx => ctx.render('aboutUs'));
 router.get('/news', ctx => ctx.render('news'));
+router.get('/service', ctx => ctx.render('service'));
 
 app.use(serve(path.join(__dirname, './resource')));
 app.use(router.routes());
