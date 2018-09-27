@@ -48,7 +48,7 @@ console.log(arr)
 // }
 // //转换时间
 // function transDate(n) {
-//     var date = new Date(n);
+//     var date = news Date(n);
 //     var Y = date.getFullYear() + '-';
 //     var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1) + '-';
 //     var D = date.getDate() < 10 ? '0' + date.getDate() : date.getDate();
