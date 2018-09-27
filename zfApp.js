@@ -12,26 +12,33 @@ app.use(gzip());
 //post请求处理
 app.use(bodyParser());
 
+app.use(function* (next) {
+    try {
+        this.phoneType = this.header['user-agent'].toLowerCase();
+    } catch (e) {
+        this.phoneType = '';
+    }
+
+    yield next;
+});
+
 //添加渲染方法
 app.use(async (ctx, next) => {
+
     ctx.render = function (path, params) {
         if (!params) {
             params = {};
         }
-        ctx.body = jade.renderFile(`${__dirname}/view/${path}.jade`, params);
+        if(this.phoneType && this.phoneType.match(/android/i) == 'android'){
+            ctx.body = '请用PC端打开页面'
+        }else if (this.phoneType && (this.phoneType.match(/iphone/i) == 'iphone' || this.phoneType.match(/ipad/i) == 'ipad')) {
+            ctx.body = '请用PC端打开页面'
+        }else{
+            ctx.body = jade.renderFile(`${__dirname}/view/${path}.jade`, params);
+        }
+
     };
     await next();
-});
-
-//dianyong
-router.post('/api/*', async (ctx) => {
-    let api = ctx.path.substring('/api/'.length);
-    try {
-        ctx.body = await http.post(api, {param: ctx.request.body});
-    } catch (e) {
-        ctx.status = 500;
-        ctx.body = e.message;
-    }
 });
 
 
