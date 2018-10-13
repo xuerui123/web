@@ -25,27 +25,32 @@ html
                             a(href='/aboutUs') 关于我们
         div.banner#carousel_1.ft-carousel
             ul.carousel-inner
-                a
+                a(href='/guanjia')
                     li.banner1.carousel-item
                 a(href='/kaiguan')
                     li.banner2.carousel-item
                 a(href='/mensuo')
                     li.banner3.carousel-item
+            div.helper
+                div.mask-left
+                div.mask-right
+                a.prev.icon-arrow-a-left( href="javascript:void(0);" target="_self" )
+                a.next.icon-arrow-a-right(href="javascript:void(0);" target="_self")
         div.project
             div.title
-                p(style='font-size:36px;margin-bottom:6px;') 智能解决方案
+                p(style='font-size:36px;margin-bottom:10px;') 智能解决方案
                 p(style='font-size:16px') 提供多元化智能解决方案
             div.left(style='margin-right:20px;')
-                a(href='/solution?key=left')
+                a(href='/solution?key=right')
                     img(src='/pcimg/index/project1.jpg')
                 p 智慧酒店解决方案
             div.right
-                a(href='/solution?key=right')
+                a(href='/solution?key=left')
                     img(src='/pcimg/index/project2.jpg')
                 p 智能家居解决方案
         div.product
             div.title
-                p(style='font-size:36px;margin-bottom:6px;') 产品中心，自由选择
+                p(style='font-size:36px;margin-bottom:10px;') 产品中心，自由选择
                 p(style='font-size:16px') 后期会慢慢增加系列
             div.down
                 img(src='/pcimg/index/down.png')
@@ -58,7 +63,7 @@ html
                     li
                         a(href='/product?num=1')
                             img(src='/pcimg/index/xiaoq.png')
-                            span 小乔
+                            span 小乔管家
                     li
                         a(href='/product?num=2')
                             img(src='/pcimg/index/zhaoming.png')
@@ -77,8 +82,8 @@ html
                             span 智能家电
         div.video
             div.title
-                p(style='font-size:36px') 智能生活，畅想物联
-                p 帮助您更好的了解场景
+                p(style='font-size:36px;margin-bottom:10px;') 智能生活，畅想物联
+                p 帮助您更好的了解智能生活
             div.videoBox
                 div#main
                     div#index_b_hero
@@ -100,7 +105,7 @@ html
                             a.next.icon-arrow-a-right(href="javascript:void(0);" target="_self")
         div.cooperation
             div.title
-                p(style='font-size:36px;margin-bottom:6px;') 合作生态，创新共赢
+                p(style='font-size:36px;margin-bottom:10px;') 合作生态，创新共赢
                 p(style='font-size:16px') 开放原则，欢迎合作
             div.list
                 div.item

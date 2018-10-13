@@ -59,6 +59,15 @@ router.get('/mensuo', ctx => ctx.render('mensuo'));
 router.get('/rentichuanganqi', ctx => ctx.render('rentichuanganqi'));
 router.get('/shengguang', ctx => ctx.render('shengguang'));
 router.get('/qiangmiantie', ctx => ctx.render('qiangmiantie'));
+router.get('/guanjia', ctx => ctx.render('guanjia'));
+router.get('/xiaoqiao', ctx => ctx.render('xiaoqiao'));
+router.get('/wait', ctx => ctx.render('wait'));
+router.get('/chazuo', ctx => ctx.render('chazuo'));
+router.get('/news/news1', ctx => ctx.render('news/news1'));
+router.get('/news/news2', ctx => ctx.render('news/news2'));
+router.get('/news/news3', ctx => ctx.render('news/news3'));
+router.get('/news/news4', ctx => ctx.render('news/news4'));
+router.get('/news/news5', ctx => ctx.render('news/news5'));
 
 
 app.use(serve(path.join(__dirname, './resource')));

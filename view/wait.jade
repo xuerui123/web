@@ -1,0 +1,31 @@
+html
+    head
+        meta(charset='utf-8')
+        title
+        link(rel='stylesheet',href='/css/wait.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.nav
+            div.content
+                div.logo
+                    a(href='/index')
+                        img(src='/pcimg/index/logo.svg')
+                div.list
+                    ul
+                        li
+                            a(href='/product').active 产品中心
+                        li
+                            a(href='/solution') 解决方案
+                        li
+                            a(href='/infrared') 红外码库
+                        li
+                            a(href='/open') 开放平台
+                        li
+                            a(href='/news') 最新资讯
+                        li
+                            a(href='/aboutUs') 关于我们
+        div.box
+            p 产品陆续开放中，敬请期待...
+        include bottom
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/chuanglian.js")

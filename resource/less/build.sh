@@ -13,5 +13,10 @@ lessc -x mensuo.less ../css/mensuo.css
 lessc -x rentichuanganqi.less ../css/rentichuanganqi.css
 lessc -x qiangmiantie.less ../css/qiangmiantie.css
 lessc -x shengguang.less ../css/shengguang.css
+lessc -x guanjia.less ../css/guanjia.css
+lessc -x chazuo.less ../css/chazuo.css
+lessc -x xiaoqiao.less ../css/xiaoqiao.css
+lessc -x wait.less ../css/wait.css
+lessc -x news.news1.less ../css/news.news1.css
 
 
