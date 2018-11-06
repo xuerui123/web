@@ -1,0 +1,48 @@
+div.footer
+    div.box
+        div.item
+            p.title 产品中心
+            ul
+                a(href='/product')
+                    li 智能家居
+                a(href="https://shop266057099.taobao.com/?spm=a230r.7195193.1997079397.2.ycvxhA")
+                li 体验与购买
+        div.item
+            p.title 售后与支持
+            ul
+                a(href='/service')
+                    li 服务与保修
+                li(onclick='code(".xiaochengxu")') 微信小程序
+        div.item
+            p.title 服务合作
+            ul
+                a(href='/open')
+                    li 开放平台
+                a(href='/infrared')
+                    li 码库服务
+        div.item
+            p.title 关于蒲公英
+            ul
+                a(href='/aboutUs')
+                    li 公司简介
+        div.item
+            p.title 关注我们
+            ul
+                li(onclick='code(".wechat")') 微信
+                li(onclick='code(".weibo")') 微博
+        div.item
+            p.title 联系我们
+            ul
+                li 电话 0731-8290 8108
+                li 服务时间
+                li 9 ：00-18 ：00
+                li QQ 2582292078
+    div.bottomText
+        p Copyright ©2018 长沙蒲公英智能科技有限公司
+        p Pugoing Corporation Ltd. All Rights Reserved
+        p 湘ICP备16008331号
+div.codebox
+    img.xiaochengxu(src='phoneimg/index/wechatsmall.png')
+    img.wechat(src='phoneimg/index/weixin.png')
+    img.weibo(src='phoneimg/index/weibo.png')
+    div(onclick='hidcode()').iocn

@@ -1,0 +1,60 @@
+html
+    head
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+        title 产品中心
+        link(rel='stylesheet',href='/css/phone.kaiguan.css')
+        link(rel='stylesheet',href='/css/phone.rentichuanganqi.css')
+    body
+        div#content
+            include header
+            div.kaiguan
+                div.top
+                div.title
+                    p 人体传感器
+                div.explain
+                    div.left
+                        p 迷你型设计，适合各种装修风格，多种摆放方式
+                        p 搭配管家联动，智能检测人或宠物活动
+                        p 个位数微安级超低功耗，正常使用两年以上
+                        p 超强信号5米距离，120度广角
+                    div.right
+                        img(src='../phoneimg/rentichuanganqi/small.jpg')
+                div.title
+                    p 主要参数
+                div.list
+                    ul
+                        li
+                            p 通信频率
+                            span 433.92MHz
+                        li
+                            p 通信协议
+                            span 1527/自主协议
+                        li
+                            p 调制方式
+                            span ASK/GFSK
+                        li
+                            p 加密方式
+                            span AES-128
+                        li
+                            p 发射功率
+                            span ≤17 dBm
+                        li
+                            p 工作温度
+                            span -20~70℃
+                        li
+                            p 接收灵敏度
+                            span ≥113 dBm
+                        li
+                            p 安装方式
+                            span 双面贴纸、直接摆放
+                        li
+                            p 供电方式
+                            span CR2477 * 1 纽扣电池
+                        li
+                            p 产品尺寸
+                            span 35 * 35 * 33 mm
+
+            include footer
+    script(src="/JavaScript/phone/zepto.js")
+    script(src="/JavaScript/phone/header.js")
+

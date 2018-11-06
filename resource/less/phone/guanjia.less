@@ -1,0 +1,228 @@
+@import "common";
+.top{
+  padding-top: 60px;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  text-align: center;
+  z-index: 10;
+  .lan{
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  img{
+    position: relative;
+    z-index: 100;
+    top: 115px;
+  }
+
+
+  #ms5-bg-layer-1 {
+    position: absolute;
+    top:60px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ms5-bg__circle {
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10vw 0 rgba(0,210,255,0.60);
+  }
+
+  @keyframes expanding1 {
+    0% { transform: scale(.0); }
+    75% { opacity: .35; }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+    }
+  }
+  @keyframes expanding2 {
+    0% {
+      transform: scale(.75);
+      opacity: .35;
+    }
+    25% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    26% {
+      transform: scale(0);
+      opacity: .35;
+    }
+    100% { transform: scale(.75); }
+  }
+  @keyframes expanding3 {
+    0% { transform: scale(.5); }
+    25% { opacity: .35; }
+    50% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    51% {
+      transform: scale(0);
+      opacity: .35;
+    }
+    100% { transform: scale(.5); }
+  }
+  @keyframes expanding4 {
+    0% { transform: scale(.25); }
+    50% {
+      opacity: .35;
+    }
+    75% {
+      transform: scale(1);
+      opacity: 0;
+    }
+    76% {
+      transform: scale(0);
+      opacity: .35;
+    }
+    100% { transform: scale(.25); }
+  }
+  #ms5-circle-1.ms5-bg__circle {
+    animation: expanding1 35s infinite linear;
+  }
+  #ms5-circle-2.ms5-bg__circle {
+    animation: expanding2 35s infinite linear;
+  }
+  #ms5-circle-3.ms5-bg__circle {
+    animation: expanding3 35s infinite linear;
+  }
+  #ms5-circle-4.ms5-bg__circle {
+    animation: expanding4 35s infinite linear;
+  }
+
+}
+
+.huanxingci{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/2.png") no-repeat center;
+    background-size: 100% auto;
+  }
+
+}
+.quanwu{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/3.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.lixian{
+  .photo{
+    width: 100%;
+    height: 380px;
+    background: url("../phoneimg/guanjia/4.png") no-repeat center;
+    background-size: 100% auto;
+  }
+
+}
+.mingling{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/5.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.weixin{
+  .photo{
+    width: 100%;
+    height: 280px;
+    background: url("../phoneimg/guanjia/6.png") no-repeat center;
+    background-size: 100% auto;
+  }
+
+}
+.zhineng{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/7.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.gongneng{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/8.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.kongzhi{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/9.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.sence{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/10.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.lianjieqi{
+  .photo{
+    width: 100%;
+    height: 330px;
+    background: url("../phoneimg/guanjia/11.png") no-repeat center;
+    background-size: 100% auto;
+  }
+}
+.big{
+  font-size: 26px;
+  line-height: 50px;
+  padding: 0 3%;
+}
+.middle{
+  font-size: 16px;
+  padding: 0 3%;
+  line-height: 25px;
+}
+.list1{
+  width: 90%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  margin-top: 80px;
+  margin-bottom: 60px;
+  .title{
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    p{
+      font-size: 26px;
+      text-align: left;
+    }
+  }
+  ul{
+    overflow: hidden;
+    li{
+      float: left;
+      text-align: center;
+      width: 50%;
+      margin-bottom: 50px;
+      p{
+        font-size: 22px;
+        margin-bottom: 16px;
+      }
+      span{
+        font-size: 14px;
+      }
+    }
+  }
+}

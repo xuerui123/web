@@ -30,9 +30,9 @@ app.use(async (ctx, next) => {
             params = {};
         }
         if(this.phoneType && this.phoneType.match(/android/i) == 'android'){
-            ctx.body = '请用PC端打开页面'
+            ctx.body = jade.renderFile(`${__dirname}/phone/${path}.jade`, params);
         }else if (this.phoneType && (this.phoneType.match(/iphone/i) == 'iphone' || this.phoneType.match(/ipad/i) == 'ipad')) {
-            ctx.body = '请用PC端打开页面'
+            ctx.body = jade.renderFile(`${__dirname}/phone/${path}.jade`, params);
         }else{
             ctx.body = jade.renderFile(`${__dirname}/view/${path}.jade`, params);
         }
@@ -68,6 +68,11 @@ router.get('/news/news2', ctx => ctx.render('news/news2'));
 router.get('/news/news3', ctx => ctx.render('news/news3'));
 router.get('/news/news4', ctx => ctx.render('news/news4'));
 router.get('/news/news5', ctx => ctx.render('news/news5'));
+//手机端页面
+router.get('/home', ctx => ctx.render('home'));
+router.get('/hotel', ctx => ctx.render('hotel'));
+
+
 
 
 app.use(serve(path.join(__dirname, './resource')));

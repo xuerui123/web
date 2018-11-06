@@ -1,0 +1,70 @@
+html
+    head
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+        title 产品中心
+        link(rel='stylesheet',href='/css/phone.product.css')
+    body
+        div#content
+            include header
+            div.product
+                p.title 产品中心
+                div.voice
+                    //p.titles 语音中控
+                    ul
+                        li
+                            a(href='/guanjia')
+                                img(src='phoneimg/product/guanjia.jpg')
+                            span 管家机器人
+                        li
+                            a(href='/xiaoqiao')
+                                img(src='phoneimg/product/xiaoqiao.jpg')
+                            span 小乔家用机器人
+                        li
+                            a(href='/wait')
+                                img(src='phoneimg/product/86zhongkong.jpg')
+                            span 86语音中控
+                        li
+                            a(href='/kaiguan')
+                                img(src='phoneimg/product/kaiguan.jpg')
+                            span 无线墙面开关
+                        li
+                            a(href='/wait')
+                                img(src='phoneimg/product/dengdai.jpg')
+                            span 智能灯带
+                        li
+                            a(href='/qiangmiantie')
+                                img(src='phoneimg/product/qiangmian.jpg')
+                            span 无线墙面贴
+                        li
+                            a(href='/menchuang')
+                                img(src='phoneimg/product/menci.jpg')
+                            span 门窗传感器
+                        li
+                            a(href='/mensuo')
+                                img(src='phoneimg/product/mensuo.jpg')
+                            span 智能门锁
+                        li
+                            a(href='/rentichuanganqi')
+                                img(src='phoneimg/product/rentichuanganqi.jpg')
+                            span 人体传感器
+                        li
+                            a(href='/shengguang')
+                                img(src='phoneimg/product/baojingqi.jpg')
+                            span 声光报警器
+                        li
+                            a(href='/chuanglian')
+                                img(src='phoneimg/product/chuanglian.jpg')
+                            span 电动窗帘
+                        //li
+                        //    a(href='/wait')
+                        //        img(src='phoneimg/product/tuichuangqi.jpg')
+                        //    span 窗户助推器
+                        li
+                            a(href='/chazuo')
+                                img(src='phoneimg/product/chazuo.jpg')
+                            span 智能插座
+            include footer
+    script(src="/JavaScript/phone/zepto.js")
+    script(src="/JavaScript/phone/banner.js")
+    script(src="/JavaScript/phone/header.js")
+    script(src="/JavaScript/phone/index.js")

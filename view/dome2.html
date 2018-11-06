@@ -62,13 +62,12 @@ Welcome<br/><input id="text" type="text"/>
     //发送消息
     function send() {
         var message = JSON.stringify({
-            op: "scene",
-            act: "del",
-            token:'f374321d02f8f2541f06b63b7ea4c31d',
+            op: "mail",
+            act: "list",
+            token:'9106b05c0e0861a9e09b78c160ed54bf',
+            did:'30373331313044303741343836424338',
             uid:'ow2D50OFu0K6pKxJrsSVW0LmKa-4',
-            date: {
-                sid:'963a4b95a9ba81b5579a7720a16b8c71'
-            },
+
         });
         websocket.send(message);
     }

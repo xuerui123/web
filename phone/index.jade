@@ -1,0 +1,64 @@
+html
+    head
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+        title 首页
+        link(rel='stylesheet',href='/css/phone.index.css')
+    body
+        div#content
+            include header
+            div.banner
+                ul
+                    li
+                        img(src='phoneimg/index/banner1.jpg')
+                    li
+                        img(src='phoneimg/index/banner2.jpg')
+                    li
+                        img(src='phoneimg/index/banner3.jpg')
+                div.yuan
+                    span.i1.active
+                    span.i2
+                    span.i3
+            div.project
+                p.big 智能解决方案
+                p.small 提供多元化智能解决方案
+                a(href='/hotel')
+                    img(src='phoneimg/index/project1.jpg')
+                p.middle 智慧酒店解决方案
+                a(href='/home')
+                    img(src='phoneimg/index/project2.jpg')
+                p.middle 智能家居解决方案
+            div.product
+                p.big 产品中心，自由选择
+                ul
+                    li
+                        a(href='/guanjia')
+                            img(src='phoneimg/index/quanwu.png')
+                        p.middle 语音主机
+                    li
+                        a(href='/xiaoqiao')
+                            img(src='phoneimg/index/xiaoq.png')
+                        p.middle 小乔管家
+                    li
+                        a(href='/kaiguan')
+                            img(src='phoneimg/index/zhaoming.png')
+                        p.middle 智能开关
+                    li
+                        a(href='/mensuo')
+                            img(src='phoneimg/index/anquan.png')
+                        p.middle 智能门锁
+                    li
+                        a(href='/chuanglian')
+                            img(src='phoneimg/index/chuanghu.png')
+                        p.middle 窗户窗帘
+                    li
+                        a(href='/chazuo')
+                            img(src='phoneimg/index/jiadian.png')
+                        p.middle 智能插座
+            div.cooperation
+                p.big 合作生态，创新共赢
+                img(src='phoneimg/index/cooperation.png')
+            include footer
+    script(src="/JavaScript/phone/zepto.js")
+    script(src="/JavaScript/phone/banner.js")
+    script(src="/JavaScript/phone/header.js")
+    script(src="/JavaScript/phone/index.js")
