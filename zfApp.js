@@ -68,6 +68,7 @@ router.get('/news/news2', ctx => ctx.render('news/news2'));
 router.get('/news/news3', ctx => ctx.render('news/news3'));
 router.get('/news/news4', ctx => ctx.render('news/news4'));
 router.get('/news/news5', ctx => ctx.render('news/news5'));
+router.get('/news/news6', ctx => ctx.render('news/news6'));
 //手机端页面
 router.get('/home', ctx => ctx.render('home'));
 router.get('/hotel', ctx => ctx.render('hotel'));
