@@ -62,11 +62,12 @@ Welcome<br/><input id="text" type="text"/>
     //发送消息
     function send() {
         var message = JSON.stringify({
-            op: "mail",
-            act: "list",
-            token:'9106b05c0e0861a9e09b78c160ed54bf',
-            did:'30373331313044303741343836424338',
-            uid:'ow2D50OFu0K6pKxJrsSVW0LmKa-4',
+            act: "userup",
+            date: {dname: "电视", dbra: "SJHS", romoid: "C231", uploader: "XN", upcontact: "13677889900"},
+            did: "30373331313044303741343834323430",
+            op: "irdatebase",
+            token: "9106b05c0e0861a9e09b78c160ed54bf",
+            uid: "ow2D50OFu0K6pKxJrsSVW0LmKa-4",
 
         });
         websocket.send(message);
