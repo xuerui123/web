@@ -4,7 +4,6 @@ html
         title
         link(rel='shortcut icon',type="image/x-icon",href='/pcimg/pugoing.ico')
         link(rel='stylesheet',href='/css/chuanglian.css')
-        link(rel='stylesheet',href='/css/menchuang.css')
         script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
     body
         div.nav
@@ -26,56 +25,47 @@ html
                             a(href='/news') 最新资讯
                         li
                             a(href='/aboutUs') 关于我们
-        div.top
+        div.top(style='background:url("../pcimg/sos/top.jpg") no-repeat center')
+        div.top2
+        div.top3
         div.box
             div.title
-                p 门窗传感器
+                p sos紧急按钮
             div.line
             div.explain
                 div.left
-                    p 搭配管家联动，实时监测门窗状态
-                    p 个位数微安级超低功耗，正常使用两年以上
-                    p 支持打开和关闭状态
-                    p 自带防拆设计
+                    p 一键求救按钮
+                    p 操作简单，家中老人一键求救
+                    p 联动系统，发送短信到主人手机
                 div.right
-                    img(src='../pcimg/menchuang/small.png')
+                    img(src='../pcimg/sos/small.png')
             div.title
                 p 主要参数
             div.line
             div.list
                 ul
                     li
-                        p 额定电压
-                        span DC 3.0V
+                        p 工作电压
+                        span 3.0V
                     li
-                        p 静态电流
-                        span ≤7uA
+                        p 电池
+                        span CR2032
                     li
-                        p 报警电流
-                        span ≤25mA
-                    li
-                        p 无线通信
+                        p 无线通讯
                         span 433射频
                     li
-                        p 活动间隙
-                        span ≥14mm
+                        p 发射电流
+                        span ≤20mA
                     li
-                        p 工作温度
-                        span -10℃~+50℃
+                        p 静态电流
+                        span ≤1uA
                     li
-                        p 能量传输
+                        p 发射功率
                         span ≤13dBm
                     li
-                        p 供电方式
-                        span CR2032 * 1 纽扣电池
-                    li
-                        p 尺寸
-                        span 主体79.9*31.9*14.3mm
-                        br
-                        span 磁条50.7*12.7mm
+                        p 发射距离
+                        span ≥100米（空旷地）
 
-
-                    
         include bottom
 script(src="/JavaScript/jquery.min.js")
 script(src="/JavaScript/chuanglian.js")

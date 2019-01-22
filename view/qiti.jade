@@ -1,0 +1,94 @@
+html
+    head
+        meta(charset='utf-8')
+        title
+        link(rel='shortcut icon',type="image/x-icon",href='/pcimg/pugoing.ico')
+        link(rel='stylesheet',href='/css/chuanglian.css')
+        link(rel='stylesheet',href='/css/mensuo.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.nav
+            div.content
+                div.logo
+                    a(href='/index')
+                        img(src='/pcimg/index/logo.svg')
+                div.list
+                    ul
+                        li
+                            a(href='/product').active 产品中心
+                        li
+                            a(href='/solution') 解决方案
+                        li
+                            a(href='/infrared') 红外码库
+                        li
+                            a(href='/open') 开放平台
+                        li
+                            a(href='/news') 最新资讯
+                        li
+                            a(href='/aboutUs') 关于我们
+        div.top(style='background:url("../pcimg/qiti/1.jpg") no-repeat center')
+        div.top2(style='background:url("../pcimg/qiti/2.jpg") no-repeat center')
+        div.top3(style='background:url("../pcimg/qiti/3.jpg") no-repeat center')
+        div.box(style='margin-top:20px')
+            div.title
+                p 气体传感器
+            div.line
+            div.explain
+                div.left
+                    p 3C认证
+                    p 实时监测室内状态
+                    p 自动报警发送至主人手机
+                    p 联动机械手自动关闭阀门
+                div.right
+                    img(src='../pcimg/qiti/small.png')
+            div.title
+                p 主要参数
+            div.line
+            div.list
+                ul
+                    li
+                        p 工作电压
+                        span -10℃~50℃
+                    li
+                        p 静态电流
+                        span ≤100mA(DC 12V)
+                    li
+                        p 报警电流
+                        span ≤150mA(DC 12V)
+                    li
+                        p 报警浓度
+                        span 6%LEL
+                    li
+                        p 通讯信号
+                        span 433射频
+                    li
+                        p 蜂鸣器声压
+                        span ≥70dB
+                    li
+                        p 工作环境
+                        span 温度 0℃~55℃，相对湿度 ≤95%RH
+                    li
+                        p 稳定性
+                        span 长期工作报警浓度误差不大于±5%LEL
+                    li
+                        p 重复性
+                        span 重复测试报警浓度误差不大于±3%LEL
+                    li
+                        p 报警浓度误差
+                        span ±3%LEL
+                    li
+                        p 报警方式
+                        span 声光报警、1常开/常闭可选
+                    li
+                        p 产品尺寸
+                        span 120*68*32mm
+                    li
+                        p 探测气体
+                        span 爆炸极限的 4%（报警浓度：煤气 0.1-0.3%，
+                        br
+                        span 天燃气 0.1-0.5%，液化石油气0.1-0.3% ）
+
+
+        include bottom
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/chuanglian.js")

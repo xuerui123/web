@@ -4,7 +4,7 @@ html
         title
         link(rel='shortcut icon',type="image/x-icon",href='/pcimg/pugoing.ico')
         link(rel='stylesheet',href='/css/chuanglian.css')
-        link(rel='stylesheet',href='/css/menchuang.css')
+        style
         script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
     body
         div.nav
@@ -26,56 +26,58 @@ html
                             a(href='/news') 最新资讯
                         li
                             a(href='/aboutUs') 关于我们
-        div.top
+        div.top(style='background:url("../pcimg/mulian/top.jpg") no-repeat center')
+        div.top2
+        div.top3
         div.box
             div.title
-                p 门窗传感器
+                p 幕帘式红外传感器
             div.line
             div.explain
                 div.left
-                    p 搭配管家联动，实时监测门窗状态
-                    p 个位数微安级超低功耗，正常使用两年以上
-                    p 支持打开和关闭状态
-                    p 自带防拆设计
+                    p 搭配管家联动，智能检测人或宠物活动
+                        p 个位数微安级超低功耗，正常使用两年以上
+                        p 超强信号8米距离，角度15度
                 div.right
-                    img(src='../pcimg/menchuang/small.png')
+                    img(src='../pcimg/mulian/small.png')
             div.title
                 p 主要参数
             div.line
             div.list
                 ul
                     li
-                        p 额定电压
-                        span DC 3.0V
+                        p 探测方式
+                        span 红外
                     li
-                        p 静态电流
-                        span ≤7uA
+                        p 透镜类型
+                        span 幕帘
                     li
-                        p 报警电流
-                        span ≤25mA
+                        p 探测距离
+                        span 8米，15度
                     li
-                        p 无线通信
-                        span 433射频
+                        p 安装高度
+                        span 壁挂2.2米，吸顶2.4~3.6米
                     li
-                        p 活动间隙
-                        span ≥14mm
+                        p 可探测速度
+                        span 0.3~3m/s
                     li
-                        p 工作温度
-                        span -10℃~+50℃
+                        p 白光等级
+                        span 2000Lux
                     li
-                        p 能量传输
-                        span ≤13dBm
+                        p 双向数字温度补偿
+                        span 有
                     li
-                        p 供电方式
-                        span CR2032 * 1 纽扣电池
+                        p 动态阀值技术
+                        span 有
+                    li
+                        p 抗EMI/RFI干扰
+                        span 有
                     li
                         p 尺寸
-                        span 主体79.9*31.9*14.3mm
-                        br
-                        span 磁条50.7*12.7mm
-
-
-                    
+                        span 90x65x39.2mm
+                    li
+                        p 信号类别
+                        span 433射频
         include bottom
 script(src="/JavaScript/jquery.min.js")
 script(src="/JavaScript/chuanglian.js")
