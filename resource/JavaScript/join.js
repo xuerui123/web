@@ -4,7 +4,7 @@ function save() {
         phone: $('.phone').val(),
         email: $('.email').val(),
         area: $('.area').val(),
-        content: $('.content').val()
+        content: $('.text').val()
     };
     let reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
     if(data.truename==''){

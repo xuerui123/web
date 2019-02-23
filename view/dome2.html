@@ -62,13 +62,11 @@ Welcome<br/><input id="text" type="text"/>
     //发送消息
     function send() {
         var message = JSON.stringify({
-            act:"getbrand",
-//            did: "30373331313044303741343543364445",
-            op: "irdatabase",
-            token: "74a4304c3db665245e529ce4444ac8e8",
-            uid: "oAVhK5HffoP6PHNSszhqExXMXWeM",
-            date:{
-                devtype:'空调'
+            "op":"mysys",
+            "act":"auth",
+            "date":{
+                "appid":"1003",
+                "appkey":"2bded1929c9ad3ab"
             }
         }
  );
