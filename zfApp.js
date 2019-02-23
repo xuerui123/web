@@ -50,6 +50,7 @@ router.get('/solution', ctx => ctx.render('solution'));
 router.get('/infrared', ctx => ctx.render('infrared'));
 router.get('/open', ctx => ctx.render('open'));
 router.get('/aboutUs', ctx => ctx.render('aboutUs'));
+router.get('/join', ctx => ctx.render('join'));
 router.get('/news', ctx => ctx.render('news'));
 router.get('/service', ctx => ctx.render('service'));
 router.get('/chuanglian', ctx => ctx.render('chuanglian'));
@@ -69,6 +70,7 @@ router.get('/guanjia', ctx => ctx.render('guanjia'));
 router.get('/xiaoqiao', ctx => ctx.render('xiaoqiao'));
 router.get('/wait', ctx => ctx.render('wait'));
 router.get('/chazuo', ctx => ctx.render('chazuo'));
+
 router.get('/news/news1', ctx => ctx.render('news/news1'));
 router.get('/news/news2', ctx => ctx.render('news/news2'));
 router.get('/news/news3', ctx => ctx.render('news/news3'));

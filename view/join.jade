@@ -1,0 +1,57 @@
+html
+    head
+        meta(charset='utf-8')
+        title
+        link(rel='shortcut icon',type="image/x-icon",href='/pcimg/pugoing.ico')
+        link(rel='stylesheet',href='/css/join.css')
+        link(rel='stylesheet',href='/css/swal.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.nav
+            div.content
+                div.logo
+                    a(href='/index')
+                        img(src='/pcimg/index/logo.svg')
+                div.list
+                    ul
+                        li
+                            a(href='/product') 产品中心
+                        li
+                            a(href='/solution') 解决方案
+
+                        li
+                            a(href='/infrared') 红外码库
+                        li
+                            a(href='/open') 开放平台
+                        li
+                            a(href='/news') 最新资讯
+                        li
+                            a(href='/aboutUs') 关于我们
+                        li
+                            a(href='/join').active 加盟合作
+        div.box
+            p(style='    font-size: 36px;text-align: center;margin-top: 160px;margin-bottom: 80px;') 立即申请
+            div.context(style='padding:50px 0;background:#eee')
+
+                p
+                    span 姓名：
+                    input.truename
+                p
+                    span 电话：
+                    input.phone
+                p
+                    span 邮箱：
+                    input.email
+                p
+                    span 地区：
+                    input.area
+                p
+                    span 需求：
+                    textarea.content
+                p
+                    span
+                    span(onclick='save()').btn.btn-success 提&nbsp&nbsp&nbsp交
+    include bottom
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/swal.js")
+script(src="/JavaScript/join.js")
