@@ -61,16 +61,33 @@ Welcome<br/><input id="text" type="text"/>
 
     //发送消息
     function send() {
-        var message = JSON.stringify({
-            "op":"mysys",
-            "act":"auth",
-            "date":{
-                "appid":"1003",
-                "appkey":"2bded1929c9ad3ab"
+        var message = JSON.stringify(
+            {
+                "op": "device",
+                "act": "update",
+                "token": "9106b05c0e0861a9e09b78c160ed54bf",
+                "uid": "ow2D50OFu0K6pKxJrsSVW0LmKa-4",
+                "did": "30373331313044303741343837343832",
+                "date": {
+                    "mdid": 'c189ac4327d5b443904e7070ecb58265,null,null,null',
+                    "dcap":"null,null,null",
+                    "yid": 'c189ac4327d5b443904e7070ecb58265'
+                }
             }
-        }
  );
         websocket.send(message);
     }
+
+
+    /*
+ * version : 6.9.2.26754
+ * resolution : 480*854
+ * description : 1
+ */
+
+
+
+
+
 </script>
 </html>
