@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Java后端WebSocket的Tomcat实现</title>
-    　　　　　　<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport' />
-    　　　　　　<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    　　　　　　
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'/>
+    　　　　　　
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 </head>
 <body>
 Welcome<br/><input id="text" type="text"/>
@@ -61,21 +63,22 @@ Welcome<br/><input id="text" type="text"/>
 
     //发送消息
     function send() {
-        var message = JSON.stringify(
-            {
-                "op": "device",
-                "act": "update",
-                "token": "9106b05c0e0861a9e09b78c160ed54bf",
-                "uid": "ow2D50OFu0K6pKxJrsSVW0LmKa-4",
-                "did": "30373331313044303741343837343832",
-                "date": {
-                    "mdid": 'c189ac4327d5b443904e7070ecb58265,null,null,null',
-                    "dcap":"null,null,null",
-                    "yid": 'c189ac4327d5b443904e7070ecb58265'
+        websocket.send(
+            JSON.stringify(
+                {
+                    "op": "device",
+                    "act": "update",
+                    "token": "9106b05c0e0861a9e09b78c160ed54bf",
+                    "uid": "ow2D50OFu0K6pKxJrsSVW0LmKa-4",
+                    "did": "30373331313044303741343837343832",
+                    "date": {
+                        "mdid": 'c189ac4327d5b443904e7070ecb58265,null,null,null',
+                        "dcap": "null,null,null",
+                        "yid": 'c189ac4327d5b443904e7070ecb58265'
+                    }
                 }
-            }
- );
-        websocket.send(message);
+            )
+        );
     }
 
 
@@ -84,9 +87,6 @@ Welcome<br/><input id="text" type="text"/>
  * resolution : 480*854
  * description : 1
  */
-
-
-
 
 
 </script>

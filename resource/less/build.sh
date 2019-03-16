@@ -28,6 +28,7 @@ lessc -x phone/home.less ../css/phone.home.css
 lessc -x phone/hotel.less ../css/phone.hotel.css
 lessc -x phone/infrared.less ../css/phone.infrared.css
 lessc -x phone/open.less ../css/phone.open.css
+lessc -x phone/join.less ../css/phone.join.css
 lessc -x phone/news.less ../css/phone.news.css
 lessc -x phone/aboutUs.less ../css/phone.aboutUs.css
 lessc -x phone/service.less ../css/phone.service.css

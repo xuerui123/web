@@ -8,6 +8,7 @@
     "koa-gzip": "*",
     "koa-router": "*",
     "koa-static-cache": "*",
+    "fs": "*",
     "request": "*"
   }
 }

@@ -1,12 +1,13 @@
-var koa = require('koa');
-var router = require('koa-router')();
-var gzip = require('koa-gzip');
-var jade = require("jade");
-var path = require('path');
-var serve = require('koa-static-cache');
-var bodyParser = require('koa-bodyparser');
+let koa = require('koa');
+let router = require('koa-router')();
+let gzip = require('koa-gzip');
+let jade = require("jade");
+let path = require('path');
+let serve = require('koa-static-cache');
+let bodyParser = require('koa-bodyparser');
+let fs = require('fs');
 const crypto = require('crypto');
-var app = new koa();
+let app = new koa();
 //koa压缩文件
 app.use(gzip());
 //post请求处理
@@ -24,8 +25,11 @@ app.use(function* (next) {
 
 //添加渲染方法
 app.use(async (ctx, next) => {
-
     ctx.render = function (path, params) {
+        let num = JSON.parse(fs.readFileSync(`${__dirname}/fs/lookNum.json`,'utf8'));
+        let str = path;
+        num[str] = num[str] ? num[str] + 1 : 1;
+        fs.writeFileSync(`${__dirname}/fs/lookNum.json`,JSON.stringify(num),'utf8');
         if (!params) {
             params = {};
         }

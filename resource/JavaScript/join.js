@@ -4,7 +4,7 @@ function save() {
         phone: $('.phone').val(),
         email: $('.email').val(),
         area: $('.area').val(),
-        content: $('.text').val()
+        content: $('.text').val(),
     };
     let reg = new RegExp("^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$");
     if(data.truename==''){
@@ -20,14 +20,22 @@ function save() {
             if (res.ack==1){
                 swal('提示','申请成功，请等待客服联系','success')
             }else{
-                swal('提示','网络有点问题，请稍后再试','success')
+                swal('提示',res.msg,'error')
             }
         },function () {
 
         })
     }
+    sende();
 }
+function sende() {
+    let data = {"email":"dengcc@cspugoing.com", "text":$('.text').val(), "title":$('.area').val()+$('.phone').val()}
+    mutual('/Api/index/email',data,function (res) {
+        console.log(res)
+    },function () {
 
+    })
+}
 function mutual(url, data, successCallback, errorCallback) {
     $.ajax({
         url: 'http://wx.xq.cspugoing.com' + url,
