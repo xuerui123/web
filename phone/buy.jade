@@ -1,0 +1,33 @@
+html
+    head
+        meta(charset='utf-8')
+        meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1")
+        title 体验套餐
+        link(rel='shortcut icon',type="image/x-icon",href='/pcimg/pugoing.ico')
+        link(rel='stylesheet',href='/css/phone.guanjia.css')
+        link(rel='stylesheet',href='/css/phone.buy.css')
+        script(src='https://cdn.bootcss.com/jquery/2.0.1/jquery.min.js')
+    body
+        div.top
+            img(src='phoneimg/1.png')
+        div.buy
+            p
+                span.cheng 收
+                span.tn 收件人
+            p.name
+                input(placeholder='请输入收件人姓名')
+            p.phone
+                input(placeholder='请输入收件人手机号')
+            p.adrs
+                textarea(placeholder='请输入收件人地址')
+        div(onclick='onBridgeReady()').btn
+            span 立即购买 ¥ 899
+        div.showBG
+            div.qrcodebox
+                p 长按识别图中二维码确认付款
+                div#code
+
+script(src="/JavaScript/jquery.min.js")
+script(src="/JavaScript/phone/header.js")
+script(src="/JavaScript/phone/qrcode.js")
+script(src="/JavaScript/phone/buy.js")

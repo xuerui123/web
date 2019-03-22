@@ -74,6 +74,7 @@ router.get('/guanjia', ctx => ctx.render('guanjia'));
 router.get('/xiaoqiao', ctx => ctx.render('xiaoqiao'));
 router.get('/wait', ctx => ctx.render('wait'));
 router.get('/chazuo', ctx => ctx.render('chazuo'));
+router.get('/buy', ctx => ctx.render('buy'));
 
 router.get('/news/news1', ctx => ctx.render('news/news1'));
 router.get('/news/news2', ctx => ctx.render('news/news2'));

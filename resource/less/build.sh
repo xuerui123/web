@@ -43,6 +43,7 @@ lessc -x phone/shengguang.less ../css/phone.shengguang.css
 lessc -x phone/chuanglian.less ../css/phone.chuanglian.css
 lessc -x phone/chazuo.less ../css/phone.chazuo.css
 lessc -x phone/wait.less ../css/phone.wait.css
+lessc -x phone/buy.less ../css/phone.buy.css
 lessc -x phone/news.news.less ../css/phone.news.news.css
 
 
