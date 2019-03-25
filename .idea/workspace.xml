@@ -37,18 +37,28 @@
       <file leaf-file-name="buy.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phone/buy.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+            <state relative-caret-position="175">
+              <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buy.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buy.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/less/phone/buy.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="buy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resource/JavaScript/phone/buy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+            <state relative-caret-position="128">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -74,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lookNum.json" pinned="false" current-in-tab="false">
+      <file leaf-file-name="lookNum.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fs/lookNum.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
+            <state relative-caret-position="45">
+              <caret line="0" column="401" lean-forward="true" selection-start-line="0" selection-start-column="401" selection-end-line="0" selection-end-column="401" />
               <folding />
             </state>
           </provider>
@@ -127,17 +137,17 @@
         <option value="$PROJECT_DIR$/view/join.jade" />
         <option value="$PROJECT_DIR$/resource/JavaScript/join.js" />
         <option value="$PROJECT_DIR$/phone/join.jade" />
-        <option value="$PROJECT_DIR$/fs/lookNum.json" />
         <option value="$PROJECT_DIR$/view/dome2.html" />
         <option value="$PROJECT_DIR$/zfApp.js" />
         <option value="$PROJECT_DIR$/resource/less/build.sh" />
         <option value="$PROJECT_DIR$/view/aboutUs.jade" />
         <option value="$PROJECT_DIR$/phone/aboutUs.jade" />
         <option value="$PROJECT_DIR$/resource/JavaScript/phone/qrcode.js" />
-        <option value="$PROJECT_DIR$/resource/less/phone/buy.less" />
-        <option value="$PROJECT_DIR$/phone/buy.jade" />
-        <option value="$PROJECT_DIR$/resource/JavaScript/phone/buy.js" />
         <option value="$PROJECT_DIR$/resource/bPhNSITMP8.txt" />
+        <option value="$PROJECT_DIR$/fs/lookNum.json" />
+        <option value="$PROJECT_DIR$/phone/buy.jade" />
+        <option value="$PROJECT_DIR$/resource/less/phone/buy.less" />
+        <option value="$PROJECT_DIR$/resource/JavaScript/phone/buy.js" />
       </list>
     </option>
   </component>
@@ -199,6 +209,12 @@
             <path>
               <item name="web" type="b2602c69:ProjectViewProjectNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="phoneimg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -218,9 +234,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resource/phoneimg" />
       <recent name="$PROJECT_DIR$/resource/pcimg/aboutUs" />
       <recent name="$PROJECT_DIR$/resource/phoneimg/aboutUs" />
-      <recent name="$PROJECT_DIR$/resource/phoneimg" />
       <recent name="$PROJECT_DIR$/resource/img" />
       <recent name="$PROJECT_DIR$/phone" />
     </key>
@@ -276,12 +292,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550460109702</updated>
-      <workItem from="1550460111574" duration="75952000" />
+      <workItem from="1550460111574" duration="82195000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75952000" />
+    <option name="totallyTimeSpent" value="82195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -590,14 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fs/lookNum.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="66" lean-forward="false" selection-start-line="0" selection-start-column="66" selection-end-line="0" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/aboutUs.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -638,22 +646,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/less/phone/buy.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1305">
-          <caret line="87" column="16" lean-forward="false" selection-start-line="87" selection-start-column="16" selection-end-line="87" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phone/buy.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/MP_verify_KAsC7e3wBUsMuEKU.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -662,10 +654,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resource/less/phone/buy.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="59" column="16" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phone/buy.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="18" column="19" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/JavaScript/phone/buy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="33" column="58" lean-forward="false" selection-start-line="33" selection-start-column="58" selection-end-line="33" selection-end-column="58" />
+        <state relative-caret-position="128">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs/lookNum.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="0" column="401" lean-forward="true" selection-start-line="0" selection-start-column="401" selection-end-line="0" selection-end-column="401" />
           <folding />
         </state>
       </provider>
