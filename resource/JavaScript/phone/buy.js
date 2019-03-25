@@ -33,14 +33,16 @@ function buy() {
                     let obj = {
                         ddh:res.data.ddh
                     };
-                    mutual('/Api/pay/check',obj,function (res) {
-                        if(res.ack==1){
-                            swal('提示','支付成功','success')
-                        }
-                    })
                     if(new Date().getTime()<time+300000){
                         clearInterval(timer)
                         swal('提示','支付失败','error')
+                    }else{
+                        mutual('/Api/pay/check',obj,function (res) {
+                            if(res.ack==1){
+                                swal('提示','支付成功','success')
+                                clearInterval(timer)
+                            }
+                        })
                     }
                 },1000)
             },5000)
